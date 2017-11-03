@@ -66,7 +66,6 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
@@ -147,12 +146,13 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url('https://static.pexels.com/photos/221540/pexels-photo-221540.jpeg') no-repeat bottom center scroll;
+    background: url('https://static.pexels.com/photos/277667/pexels-photo-277667.jpeg') no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-filter: grayscale(45%);
 }
 
 .intro .intro-body {
@@ -371,6 +371,30 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.firstjumbo {
+  background: #000 url("https://static.pexels.com/photos/276724/pexels-photo-276724.jpeg") center;
+  color: white;
+  -webkit-filter: grayscale(100%);
+}
+.secondjumbo {
+  background: #000 url("https://static.pexels.com/photos/241544/pexels-photo-241544.jpeg") center;
+  color: white;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+}
+.thirdjumbo {
+  background: #000 url("https://static.pexels.com/photos/163163/sackcloth-sackcloth-textured-laptop-ipad-163163.jpeg");
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  color: white;
 }
 
 
