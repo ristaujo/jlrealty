@@ -103,7 +103,6 @@ a:focus {
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: rgba(255,255,255,.8);
-    background-color: black;
 }
 
 .navbar-custom .nav li a:focus,
@@ -334,6 +333,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    font-size: 8px;
 }
 
 footer p {
@@ -384,7 +384,6 @@ body {
 .thirdjumbo {
   background: #000 url("https://static.pexels.com/photos/163163/sackcloth-sackcloth-textured-laptop-ipad-163163.jpeg");
   background-size: cover;
-  -webkit-filter: grayscale(100%);
   color: white;
 }
 .contactjumbo {
@@ -426,10 +425,6 @@ body {
 .featurette {
     margin-left: 10px;
 }
-.portrait {
-    padding-top: 100px;
-    
-}
 span.glyphicon-stats {
     font-size: 300px;
     padding-top: 50px;
@@ -461,8 +456,38 @@ span.glyphicon-thumbs-up {
 span.text-muted {
     font-size: 40px;
 }
-
-
-
-
-
+.mystory {
+    padding-top: 150px;
+}
+.market {
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+.customer {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.aboutbtn {
+    color: #3498db;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 530px;
+}
+.marketbtn {
+    color: #3498db;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 67px;
+}
+.reviewbtn {
+    color: #3498db;
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-left: 680px;
+}
+.contactfeat {
+    padding-top: 20px;
+}
